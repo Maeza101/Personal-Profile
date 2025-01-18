@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fullcontainer {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 10px 20px #1F1F1F;
+}
+
+.card {
+    text-align: center;
+}
+
+.profilepicture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url(/assets/image/lebo.jpg) no-repeat center center;
+    background-size: cover;
+    border: 3px solid #444;
+
+}
+
+.name {
+    color: white;
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+}
+
+.location {
+    color: #a5d6a7;
+    font-size: 1rem;
+    margin: 5px 0;
+    font-style: bold;
+}
+
+.bio {
+    color: #bbb;
+    margin: 15px 0;
+}
+
+.Links {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #333;
+    width: 250px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    text-align: center;
+
+}
+
+
+button:hover {
+    background-color: #444;
+}
